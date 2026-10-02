@@ -1,0 +1,7 @@
+# Local source images and generated watermarked images
+/input/
+/output/
+
+# macOS metadata
+.DS_Store
+._*
