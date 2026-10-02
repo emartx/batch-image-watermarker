@@ -2,7 +2,7 @@
 
 INPUT="input"
 OUTPUT="output"
-WATERMARK="oddtopia-watermark-black.png"
+WATERMARK="watermark.png"
 
 mkdir -p "$OUTPUT"
 
