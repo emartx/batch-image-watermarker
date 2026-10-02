@@ -2,6 +2,9 @@
 /input/
 /output/
 
+# The watermark image
+/watermark.png
+
 # macOS metadata
 .DS_Store
 ._*
