@@ -1,0 +1,19 @@
+README.md
+  s_766a0d21ba8f66::t_e577c0b65401ae 1-57
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "ac87000d71a8d9548f1a266688d9271327d92fa2",
+  "prompts": {},
+  "sessions": {
+    "s_766a0d21ba8f66": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0fb41-cd57-7092-bc19-b53493fff87d",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "EmArTx <emad.armoun@gmail.com>"
+    }
+  }
+}
