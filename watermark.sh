@@ -27,20 +27,24 @@ for img in "$INPUT"/*.{jpg,jpeg,png,webp}; do
 
   filename=$(basename "$img")
 
-  width=$(magick identify -format "%w" "$img" 2>/dev/null)
+  dimensions=$(magick identify -format "%w %h" "$img" 2>/dev/null)
+  read -r width height <<< "$dimensions"
 
-  if [ -z "$width" ]; then
+  if [ -z "$width" ] || [ -z "$height" ]; then
     log "ERROR: Could not read image: $filename"
     ((failed++))
     continue
   fi
 
   wm_width=$((width * 20 / 100))
+  if [ "$height" -gt "$width" ]; then
+    wm_width=$((width * 40 / 100))
+  fi
   margin_x=$((width * 4 / 100))
   margin_y=$((width * 2 / 100))
 
   log "Processing: $filename"
-  log "  Image width: ${width}px"
+  log "  Image dimensions: ${width}x${height}px"
   log "  Watermark width: ${wm_width}px"
   log "  Margin X: ${margin_x}px"
   log "  Margin Y: ${margin_y}px"

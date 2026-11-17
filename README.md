@@ -5,7 +5,7 @@ A small Bash script that uses ImageMagick to add a watermark to every `.jpg`,
 in `output/` using the original filenames and leaves the source images unchanged.
 
 The watermark appears in the bottom-left corner, scaled to 20% of each image's
-width. Its alpha is multiplied by 0.45, with horizontal and vertical margins of
+width (40% for portrait images, where height exceeds width). Its alpha is multiplied by 0.45, with horizontal and vertical margins of
 4% and 2% of the image width, respectively.
 
 ## Prerequisites
