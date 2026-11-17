@@ -1,0 +1,14 @@
+.gitignore
+  h_21b34927147123 7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "daf42a4f0d4c0724d31d3ab810cdd9ef217a34e0",
+  "prompts": {},
+  "humans": {
+    "h_21b34927147123": {
+      "author": "EmArTx <emad.armoun@gmail.com>"
+    }
+  }
+}
