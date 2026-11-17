@@ -4,6 +4,7 @@
 
 # The watermark image
 /watermark.png
+/watermarks/*
 
 # macOS metadata
 .DS_Store
