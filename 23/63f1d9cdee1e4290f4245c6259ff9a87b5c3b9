@@ -1,0 +1,21 @@
+README.md
+  s_06e31c951defd2::t_bf24a4471331d5 8
+watermark.sh
+  s_06e31c951defd2::t_bf24a4471331d5 30-31,33,40-42,47,72
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "2363f1d9cdee1e4290f4245c6259ff9a87b5c3b9",
+  "prompts": {},
+  "sessions": {
+    "s_06e31c951defd2": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a1ebb5-2018-7630-9cce-4674f578cedb",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "EmArTx <emad.armoun@gmail.com>"
+    }
+  }
+}
